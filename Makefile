@@ -1,9 +1,9 @@
-#!/bin/bash
+.PHONY: secret-number
 
-read -p "Digite o tempo em segundos: " timer
-
-while (( timer > 0 ))
-do
-	echo "Restam apenas: $timer segundos."
-	((timer--))
-done
+secret-number:
+	@echo "Iniciando o Secret Number!!!"
+	sleep 2
+	clear
+	sudo chmod +x ./secret-number/guessSecretNumber.sh
+	./secret-number/guessSecretNumber.sh
+	

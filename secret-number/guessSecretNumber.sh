@@ -9,7 +9,7 @@ do
     echo "Você tem apenas $((count+1)) tentativas."
     read -p "Digite um número entre 0 até 10: " number
     if [ $number -eq $secret_number ]; then
-        echo "Parabéns, você acertou o número secreto."
+        echo "Parabéns, você acertou o número secreto. =)"
         break
     elif [ $count -eq 0 ]; then
         echo "Errou todas as tentativas."
