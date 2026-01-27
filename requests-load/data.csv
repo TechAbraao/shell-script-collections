@@ -1,0 +1,7 @@
+message, status
+helloWorld, 900,
+anotherMessage, 200,
+otherMessage, 300,
+moreMessage, 200,
+MESSAGES, 400,
+MOREMORE, 500,
