@@ -22,7 +22,7 @@ do
         -H "Content-Type: application/json" \
         -d "{
           \"message\": \"$message\",
-		  \"status\": \"$status\"
+		      \"status\": \"$status\"
         }"
       )
 
